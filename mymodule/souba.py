@@ -1,27 +1,27 @@
 comment = """
-ドル156円突破、トルコリラとメキシコペソ急上昇
+ドル156円突破、トルコリラとメキシコペソ急上昇。
+分散投資も大事ですが、分散投入も考えたほうがいいかもしれません。
 """
-date="5/20"
+date="5/21"
 #第一口座
-usd =156.138
-mxn =9.388
-
+usd =156.28
+mxn =9.44
 mswap1 =18*26
-usswap =19
-ruikei1 =189633
-saeki1 =378004
+usswap =19.1
+ruikei1 =190120
+saeki1 =387159
 #第二口座
-mswap2 =52
+mswap2 =2*26
 leverage=3.35
-mytry =4.836
+mytry =4.83
 tswap =52*35
-ruikei2 =135374
-saeki2 =20130
-
-nikkei =38760
-bull =16013
-bear =879
-soneki =1085
+ruikei2 =137246
+saeki2 =22690
+#投資信託
+nikkei =39220
+bull =16,599
+bear =850
+soneki =1642
 
 #フレーム部分
 page01 = f"""
