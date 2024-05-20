@@ -19,7 +19,7 @@ ruikei2 =137246
 saeki2 =22690
 #投資信託
 nikkei =39220
-bull =16,599
+bull =16599
 bear =850
 soneki =1642
 
