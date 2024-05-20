@@ -1,19 +1,19 @@
 date="5/20"
 #第一口座
-usd =155.75
-mxn =9.38
+usd =156.138
+mxn =9.388
 
-mswap1 =468
+mswap1 =18*26
 usswap =19
 ruikei1 =189633
-saeki1 =376022
+saeki1 =378004
 #第二口座
 mswap2 =52
 leverage=3.35
-mytry =4.822
-tswap =1820
+mytry =4.836
+tswap =52*35
 ruikei2 =135374
-saeki2 =13290
+saeki2 =20130
 
 nikkei =38760
 bull =16013
