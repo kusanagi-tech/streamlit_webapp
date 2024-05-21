@@ -1,27 +1,26 @@
 comment = """
-ドル156円突破、トルコリラとメキシコペソ急上昇。
-分散投資も大事ですが、分散投入も考えたほうがいいかもしれません。
+スワップの支給は4日分の予定となっています。
 """
-date="5/21"
+date="5/22"
 #第一口座
-usd =156.28
-mxn =9.44
-mswap1 =18*26
-usswap =19.1
-ruikei1 =190120
-saeki1 =387159
+usd =156.15
+mxn =9.38
+mswap1 =18*104
+usswap =76
+ruikei1 =190607
+saeki1 =377135
 #第二口座
-mswap2 =2*26
-leverage=3.35
-mytry =4.83
-tswap =52*35
-ruikei2 =137246
-saeki2 =22690
+mswap2 =2*104
+leverage=3.37
+mytry =4.840
+tswap =53*35*4
+ruikei2 =139153
+saeki2 =25730
 #投資信託
-nikkei =39220
-bull =16599
-bear =850
-soneki =1642
+nikkei =38870
+bull =16361
+bear =861
+soneki =1415
 
 #フレーム部分
 page01 = f"""
@@ -43,8 +42,8 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-52万通貨（取得平均単価4.847)  
-スワップ：{tswap}円(推定)  
+53万通貨（取得平均単価4.847)  
+スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差益：{saeki2:,}円  
 
