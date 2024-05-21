@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.header("🇹🇷 トルコリラスワップ試算",divider='rainbow')
+st.header("🇹🇷 トルコリラスワップ試算",anchor='section1',divider='rainbow')
 
 #プルダウンセレクターで計算する。
 # leverage = st.selectbox(
@@ -34,6 +34,6 @@ df = pd.DataFrame(data=mydata, index = index, columns = colmns)
 st.write(f":red[**レバレッジ{leverage}倍**], **単価 {souba}円 、スワップ{swap}円:green[ 有効比率 {yukou:.2f}%]**  (100%を切るとロスカット)")
 st.table(df.style.format('{:,d}'))
 st.write("大体の目安です。numpyを使うと、配列全体の乗算ができます。小数点でstepの指定ができます。")
+st.markdown("[go to Top](#section1)")
 
-st.write()
 
