@@ -1,26 +1,26 @@
 comment = """
-スワップの支給は4日分の予定となっています。
+日本時間5月23日20時にはトルコ中銀金融政策発表が予定。
 """
-date="5/22"
+date="5/23"
 #第一口座
-usd =156.15
-mxn =9.38
-mswap1 =18*104
-usswap =76
-ruikei1 =190607
-saeki1 =377135
+usd =156.774
+mxn =9.410
+mswap1 =18*26
+usswap =0
+ruikei1 =192556
+saeki1 =381901
 #第二口座
-mswap2 =2*104
-leverage=3.37
-mytry =4.840
-tswap =53*35*4
-ruikei2 =139153
-saeki2 =25730
+mswap2 =2*26
+leverage=3.43
+mytry =4.873
+tswap =0
+ruikei2 =147061
+saeki2 =30830
 #投資信託
-nikkei =38870
-bull =16361
-bear =861
-soneki =1415
+nikkei =38770
+bull =15782
+bear =887
+soneki = bull + bear - 15807
 
 #フレーム部分
 page01 = f"""
@@ -42,7 +42,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-53万通貨（取得平均単価4.847)  
+55万通貨（取得平均単価4.847)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差益：{saeki2:,}円  
