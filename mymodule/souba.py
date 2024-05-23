@@ -1,25 +1,25 @@
 comment = """
-日本時間5月23日20時にはトルコ中銀金融政策発表が予定。
+トルコ政策金利50％据置き。相場に大きな変動はありませんでしたが、ジリ下げでなくジリ上げになっています。
 """
-date="5/23"
+date="5/24"
 #第一口座
-usd =156.774
-mxn =9.410
-mswap1 =18*26
-usswap =0
-ruikei1 =192556
-saeki1 =381901
+usd =156.933
+mxn =9.379
+mswap1 =18*0
+usswap =19.1
+ruikei1 =193024
+saeki1 =377540
 #第二口座
-mswap2 =2*26
-leverage=3.43
-mytry =4.873
-tswap =0
-ruikei2 =147061
-saeki2 =30830
+mswap2 =2*0
+leverage=3.56
+mytry =4.850
+tswap =57*35
+ruikei2 =147113
+saeki2 =33100
 #投資信託
-nikkei =38770
-bull =15782
-bear =887
+nikkei =38550
+bull =16623
+bear =845
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -42,7 +42,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-55万通貨（取得平均単価4.847)  
+57万通貨（取得平均単価4.847)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差益：{saeki2:,}円  
