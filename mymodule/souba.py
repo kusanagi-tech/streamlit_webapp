@@ -1,25 +1,31 @@
 comment = """
-トルコ政策金利50％据置き。相場に大きな変動はありませんでしたが、ジリ下げでなくジリ上げになっています。
+米ドルが157円を一時突破。169.9円周辺で上下を繰り返しています。
 """
-date="5/24"
+date="5/27"
 #第一口座
-usd =156.933
-mxn =9.379
-mswap1 =18*0
-usswap =19.1
+usd =156.962
+mxn =9.39
+mswap1 =18*26
+usswap =19.2
 ruikei1 =193024
 saeki1 =377540
+hyouka1 = ruikei1 + saeki1
+yukou1 = (353009 + hyouka1)/122000
+
 #第二口座
-mswap2 =2*0
-leverage=3.56
+mswap2 =2*26
+leverage=3.52
 mytry =4.850
-tswap =57*35
-ruikei2 =147113
-saeki2 =33100
+tswap =57*32
+ruikei2 =148937
+saeki2 =34580
+hyouka2 = ruikei2 + saeki2
+yukou2 = (655349 + hyouka2)/122000
+
 #投資信託
-nikkei =38550
-bull =16623
-bear =845
+nikkei =38800
+bull =15708
+bear =886
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -35,6 +41,8 @@ page01 = f"""
 スワップ:{usswap}円  
 累計スワップ：{ruikei1:,}円  
 為替差益（含み益）：{saeki1:,}円  
+評価損益：{hyouka1:,}円  
+有効比率：{yukou1:.2%}  　
 
 第二口座  
 メキシコ・ペソ  
@@ -45,7 +53,9 @@ page01 = f"""
 57万通貨（取得平均単価4.847)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
-為替差益：{saeki2:,}円  
+為替差益（含み益)：{saeki2:,}円  
+評価損益：{hyouka2:,}円  
+有効比率：{yukou2:.2%}  
 
 日経平均先物相場：{nikkei:,}円  
 楽天日本株4.3ブル（4,277口)   
