@@ -1,31 +1,35 @@
 comment = """
-ドル売り優勢　米ＧＤＰ改定値が個人消費の鈍化で下方改定。
+財務省、過去最大の為替介入　総額9.7兆円　4、5月に実施  
+https://news.yahoo.co.jp/articles/0a6f5322b84594cd7b07b4a435018bb2a5f38892  
+DMMからビットコイン482億円分が不正流出  
+https://news.yahoo.co.jp/articles/c143a5d33a031af902d5e25b749095fa13b7749e  
+為替介入の公式発表より、ビットコインの方が話題をさらいそうです。
 """
-date="5/31"
+date="6/1"
 #第一口座
-usd =156.74
-mxn =9.18
+usd =157.26
+mxn =9.25
 mswap1 =18*26
-usswap =19.2
-ruikei1 =195971
-saeki1 =341563
+usswap =19.3
+ruikei1 =196458
+saeki1 =355024
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/122000
 
 #第二口座
 mswap2 =2*26
-leverage=3.81
+leverage=3.72
 mytry =4.87
-tswap =62*28
-ruikei2 =159505
-saeki2 =22640
+tswap =65*30
+ruikei2 =161507
+saeki2 =31410
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
-nikkei =38110
-bull =14643
-bear =937
+nikkei =38730
+bull =15448
+bear =891
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -50,7 +54,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-62万通貨（取得平均単価4.848)  
+65万通貨（取得平均単価4.851)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差益（含み益）：{saeki2:,}円  
@@ -58,9 +62,9 @@ page01 = f"""
 有効比率：{yukou2:.2%}  
 
 日経平均先物相場：{nikkei:,}円  
-楽天日本株4.3ブル（4,277口)   
+◆楽天日本株4.3ブル（4,277口)   
 評価額：{bull:,}円（資本金１.5万円)  
-楽天日本株3.8倍ベアII(9,472口）  
+◆楽天日本株3.8倍ベアII(9,472口）  
 評価額：{bear}円（資本金871円）  
 リスクヘッジ後の概算損益:{soneki:,}円  
 """
