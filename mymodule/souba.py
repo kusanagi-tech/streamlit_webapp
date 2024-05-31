@@ -1,31 +1,31 @@
 comment = """
-ドル157円突破 158円手前で再び下がっています。
+ドル売り優勢　米ＧＤＰ改定値が個人消費の鈍化で下方改定。
 """
-date="5/30"
+date="5/31"
 #第一口座
-usd =157.395
-mxn =9.233
+usd =156.74
+mxn =9.18
 mswap1 =18*26
-usswap =20.9
-ruikei1 =195484
-saeki1 =374442
+usswap =19.2
+ruikei1 =195971
+saeki1 =341563
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/122000
 
 #第二口座
 mswap2 =2*26
-leverage=3.62
-mytry =4.864
-tswap =59*32
-ruikei2 =157717
-saeki2 =31940
+leverage=3.81
+mytry =4.87
+tswap =62*28
+ruikei2 =159505
+saeki2 =22640
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
-nikkei =38170
-bull =15493
-bear =894
+nikkei =38110
+bull =14643
+bear =937
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -50,7 +50,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-59万通貨（取得平均単価4.848)  
+62万通貨（取得平均単価4.848)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差益（含み益）：{saeki2:,}円  
