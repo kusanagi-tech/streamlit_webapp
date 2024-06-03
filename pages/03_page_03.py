@@ -6,13 +6,13 @@ st.header("🎥 Youtubeの動画配信のテスト",anchor='section1', divider='
 URL = {
 "マギアレコード":"""https://www.youtube.com/embed/jI8OMNPbQTA?si=wO37Zc1sHefoyWMG""",
 "暁のヨナ":"""https://www.youtube.com/embed/3Tz3vxwJf6I?si=sJGb9PcbHgO5KwS5""",
-"進撃の巨人":"""https://www.youtube.com/embed/AW5_k_Cf4wM?si=jOD3JAbi78GkWZUm""",
+"ロード・エルメロイⅡ世の事件簿":"""https://www.youtube.com/embed/5loZwcsmn84?si=jjHaLTntPVQ5XK0y""",
 "チェンソーマン":"""https://www.youtube.com/embed/dFlDRhvM4L0?si=9tIFZteHGmEobDGP"""
 }
 
 option = st.selectbox(
     "🌟テスト動画を選択🌟",
-    ("マギアレコード", "暁のヨナ","進撃の巨人","チェンソーマン"))
+    ("マギアレコード", "暁のヨナ","ロード・エルメロイⅡ世の事件簿","チェンソーマン"))
 
 st.video(URL[option])
 
