@@ -1,31 +1,31 @@
 comment = """
-暗号資産の相場は昨年度にくらべて上昇しています。
+メキシコペソ急落したので、二万通貨買い足しました。しかしもっと下がるとは・・。政権交代で政策が変更されそうということで、かなり売られています。
 """
-date="6/6"
+date="6/7"
 #第一口座
-usd =155.680
-mxn =8.896
+usd =156.581
+mxn =8.708
 mswap1 =20*26
-usswap =19.3
-ruikei1 =199155
-saeki1 =288424
+usswap =19.2
+ruikei1 =199694
+saeki1 =235767
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/147479
 
 #第二口座
 mswap2 =2*26
-leverage=4.09
-mytry =4.796
+leverage=4.12
+mytry =4.809
 tswap =70*36
-ruikei2 =174123
-saeki2 =-9960
+ruikei2 =176695
+saeki2 =-17560
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
-nikkei =38440
-bull =15475
-bear =886
+nikkei =38660
+bull =15888
+bear =865
 soneki = bull + bear - 15807
 
 #フレーム部分
