@@ -1,31 +1,31 @@
 comment = """
-為替相場は全体的に下がっています。 
+暗号資産の相場は昨年度にくらべて上昇しています。
 """
-date="6/5"
+date="6/6"
 #第一口座
-usd =154.82
-mxn =8.65
-mswap1 =20*78
-usswap =57.0
-ruikei1 =197537
-saeki1 =239985
+usd =155.680
+mxn =8.896
+mswap1 =20*26
+usswap =19.3
+ruikei1 =199155
+saeki1 =288424
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/147479
 
 #第二口座
-mswap2 =2*26*3
-leverage=4.31
-mytry =4.73
-tswap =69*34*3
-ruikei2 =166407
-saeki2 =-75450
+mswap2 =2*26
+leverage=4.09
+mytry =4.796
+tswap =70*36
+ruikei2 =174123
+saeki2 =-9960
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
 nikkei =38440
-bull =15882
-bear =867
+bull =15475
+bear =886
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -50,7 +50,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-69万通貨（取得平均単価4.852)  
+70万通貨（取得平均単価4.852)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差損：{saeki2:,}円  
