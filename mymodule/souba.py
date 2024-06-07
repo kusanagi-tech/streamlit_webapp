@@ -1,31 +1,31 @@
 comment = """
-メキシコペソ急落したので、二万通貨買い足しました。しかしもっと下がるとは・・。政権交代で政策が変更されそうということで、かなり売られています。
+米雇用統計の発表で、火柱のようにドルが爆上げしました。
 """
-date="6/7"
+date="6/10"
 #第一口座
-usd =156.581
-mxn =8.708
+usd =156.758
+mxn =8.517
 mswap1 =20*26
-usswap =19.2
-ruikei1 =199694
-saeki1 =235767
+usswap =19.1
+ruikei1 =200233
+saeki1 =213326
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/147479
 
 #第二口座
 mswap2 =2*26
-leverage=4.12
-mytry =4.809
-tswap =70*36
-ruikei2 =176695
-saeki2 =-17560
+leverage=3.93
+mytry =4.827
+tswap =72*36
+ruikei2 =179339
+saeki2 =-8610
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
-nikkei =38660
-bull =15888
-bear =865
+nikkei =38650
+bull =15694
+bear =875
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -50,7 +50,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-70万通貨（取得平均単価4.852)  
+72万通貨（取得平均単価4.852)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差損：{saeki2:,}円  
