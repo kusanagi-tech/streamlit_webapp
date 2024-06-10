@@ -1,7 +1,7 @@
 comment = """
 メキシコペソの急落でトルコリラを購入する人が増えています。しかし一部のFX会社では、建て玉上限数の制限をかけるところが出てきています。  
 https://www.click-sec.com/corp/news/info/20240607-02/   
-https://faq.gaitame.com/faq/show/124?site_domain=default　　 
+https://faq.gaitame.com/faq/show/124?site_domain=default   
 lot ルールだとわかりにくいんですが、定義で考えると10で割ればいい（会計資料でみる　☓☓千円と同じ考え方）ので、ドルやトルコリラだけの場合は５百万通貨（もしくは5000千通貨）が上限です。
 """
 date="6/11"
