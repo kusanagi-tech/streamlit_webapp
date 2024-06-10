@@ -1,31 +1,34 @@
 comment = """
-米雇用統計の発表で、火柱のようにドルが爆上げしました。
+メキシコペソの急落でトルコリラを購入する人が増えています。しかし一部のFX会社では、建て玉上限数の制限をかけるところが出てきています。  
+https://www.click-sec.com/corp/news/info/20240607-02/   
+https://faq.gaitame.com/faq/show/124?site_domain=default　　 
+lot ルールだとわかりにくいんですが、定義で考えると10で割ればいい（会計資料でみる　☓☓千円と同じ考え方）ので、ドルやトルコリラだけの場合は５百万通貨（もしくは5000千通貨）が上限です。
 """
-date="6/10"
+date="6/11"
 #第一口座
-usd =156.758
-mxn =8.517
-mswap1 =20*26
-usswap =19.1
-ruikei1 =200233
-saeki1 =213326
+usd =157.01
+mxn =8.58
+mswap1 =20*25
+usswap =19.4
+ruikei1 =200753
+saeki1 =227583
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/147479
 
 #第二口座
 mswap2 =2*26
-leverage=3.93
-mytry =4.827
-tswap =72*36
-ruikei2 =179339
-saeki2 =-8610
+leverage=3.97
+mytry =4.83
+tswap =74*37
+ruikei2 =182092
+saeki2 =-8810
 hyouka2 = ruikei2 + saeki2
 yukou2 = (655349 + hyouka2)/122000
 
 #投資信託
-nikkei =38650
-bull =15694
-bear =875
+nikkei =39210
+bull =16309
+bear =844
 soneki = bull + bear - 15807
 
 #フレーム部分
@@ -50,7 +53,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-72万通貨（取得平均単価4.852)  
+74万通貨（取得平均単価4.852)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 為替差損：{saeki2:,}円  
