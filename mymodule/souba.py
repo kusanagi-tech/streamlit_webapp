@@ -6,8 +6,6 @@ lot ルールだとわかりにくいんですが、定義で考えると10で�
 """
 date="6/11"
 #第一口座
-usd =157.01
-mxn =8.58
 mswap1 =20*25
 usswap =19.4
 ruikei1 =200753
@@ -18,7 +16,6 @@ yukou1 = (353009 + hyouka1)/147479
 #第二口座
 mswap2 =2*26
 leverage=3.97
-mytry =4.83
 tswap =74*37
 ruikei2 =182092
 saeki2 =-8810
@@ -30,6 +27,18 @@ nikkei =39210
 bull =16309
 bear =844
 soneki = bull + bear - 15807
+
+#為替レートの自動取得
+import requests as req
+def currency_ask(x,y = 'ask'):
+  URL = """https://forex-api.coin.z.com/public/v1/ticker"""
+  res = req.get(URL)
+  ticker = res.json()['data']
+  return ticker[x][y]
+
+usd = currency_ask(0)
+mytry = currency_ask(8)
+mxn = currency_ask(10)
 
 #フレーム部分
 page01 = f"""
