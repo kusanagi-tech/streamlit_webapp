@@ -1,31 +1,31 @@
 comment = """
-メキシコペソの急落でトルコリラを購入する人が増えています。しかし一部のFX会社では、建て玉上限数の制限をかけるところが出てきています。  
-https://www.click-sec.com/corp/news/info/20240607-02/   
-https://faq.gaitame.com/faq/show/124?site_domain=default   
-lot ルールだとわかりにくいんですが、定義で考えると10で割ればいい（会計資料でみる　☓☓千円と同じ考え方）ので、ドルやトルコリラだけの場合は５百万通貨（もしくは5000千通貨）が上限です。
+トルコリラのスワップポイントは６日分の先払いです。メキシコペソは、8.4で引っかかって止まり、さすがに7円までは下がらないようです。暗号資産は、全体的に下がっています。
+6月12日(水)午後9:30には重要経済指標「5月米消費者物価指数（CPI）」発表が予定されています。  
+◆FXライブ  
+https://www.youtube.com/live/CPctJG8RK6w?si=Jobk1iivz2RKMjKG
 """
-date="6/11"
+date="6/12"
 #第一口座
-mswap1 =20*25
-usswap =19.4
-ruikei1 =200753
-saeki1 =227583
+mswap1 =20*25*3
+usswap =58.2
+ruikei1 =201272
+saeki1 =204328
 hyouka1 = ruikei1 + saeki1
-yukou1 = (353009 + hyouka1)/147479
+yukou1 = (353009 + hyouka1)/142934
 
 #第二口座
-mswap2 =2*26
-leverage=3.97
-tswap =74*37
-ruikei2 =182092
-saeki2 =-8810
+mswap2 =2*26*3
+leverage=3.98
+tswap =74*37*6
+ruikei2 =184882
+saeki2 =240
 hyouka2 = ruikei2 + saeki2
-yukou2 = (655349 + hyouka2)/122000
+yukou2 = (755349 + hyouka2)/156000
 
 #投資信託
-nikkei =39210
-bull =16309
-bear =844
+nikkei =38930
+bull =16643
+bear =829
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
