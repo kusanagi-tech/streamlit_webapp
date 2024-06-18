@@ -11,14 +11,14 @@ st.header("🇹🇷 トルコリラスワップ試算",anchor='section1',divider
 
 #スライダーで計算する
 leverage = st.select_slider(
-    "**レバレッジは何倍にする？**(1〜25倍:0.5単位)",options=np.arange(1,25.5,0.5),value = 3.0)
-swap = st.number_input("スワップ", value=35, placeholder="Type a number...")
+    "**レバレッジは何倍にする？**(1〜25倍:0.5単位)",options=np.arange(1,25.5,0.5),value = 4.0)
+swap = st.number_input("スワップ", value=37, placeholder="Type a number...")
 
 souba = 4.8
 yosan = int(souba*10000/leverage)
 
-nakami = np.array([swap,swap*30,swap*365,yosan] )
-tuuka = [1,3,5,10,20,30,40,50,60,70,80,90,100]
+nakami = np.array([swap,swap*7,swap*30,swap*365,yosan] )
+tuuka = [1,3,5,10,20,30,40,50,60,77,80,90,100]
 kanji = "万通貨"
 
 mydata=[]
@@ -26,8 +26,8 @@ for i in tuuka:
     mydata.append(nakami*i) 
 
 index  = [ str(i) + kanji for i in tuuka ]
-colmns = ["日額","月額","年額",f"予算（レバ{leverage}倍）"]
-yukou =  mydata[0][3]/2000*100
+colmns = ["日額","週額","月額","年額",f"予算（レバ{leverage}倍）"]
+yukou =  mydata[0][4]/2000*100
 
 df = pd.DataFrame(data=mydata, index = index, columns = colmns)
 
