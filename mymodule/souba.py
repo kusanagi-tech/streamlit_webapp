@@ -1,32 +1,28 @@
 comment = """
-【解説】「金利」「円安」の今後は… 日銀“長期国債買い入れ減額”方針決定  
-https://youtu.be/l2Fr9C0ZkRE?si=bdmGNVPQrZqP0_lN  
-ペソ上昇へのトレンド転換まだ？もち直しの条件は  
-https://youtu.be/03qDtmwnM3M?si=3BnPkyZC1g-zUZlL  
-いきなりこんなに下がるとは思いませんでしたが、8円止まりで、7円までは流石に下がらないようです。スワップを貯め込んだほうが価格が変動しないので、スワップ重視で運用していきます。トルコリラも下がりましたが、流石に4.6では買えなくなりました。様子を見てナンピン買いです。
+
 """
-date="6/17"
+date="6/18"
 #第一口座
-mswap1 =20*26
-usswap =0
-ruikei1 =204509
-saeki1 =214965
+mswap1 =21*26*0
+usswap =19.7
+ruikei1 =205029
+saeki1 =213486
 hyouka1 = ruikei1 + saeki1
-yukou1 = (353009 + hyouka1)/142934
+yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26
+mswap2 =2*26*0
 leverage=4.09
-tswap =76*37*0
-ruikei2 =201844
-saeki2 =-36740
+tswap =76*37
+ruikei2 =201896
+saeki2 =-23440
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/160000
 
 #投資信託
-nikkei =38460
-bull =16006
-bear =857
+nikkei =38430
+bull =14516
+bear =928
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -46,7 +42,7 @@ page01 = f"""
 {date}のスワップ
 
 メキシコ・ペソ相場：{mxn}  
-20万通貨（取得平均単価7.536)  
+21万通貨（取得平均単価7.582)  
 レバレッジ3倍  
 スワップ：{mswap1}円  
 米ドル（臨時雇い）:{usd}円  
