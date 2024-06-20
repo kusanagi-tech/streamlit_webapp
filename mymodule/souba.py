@@ -1,30 +1,33 @@
 comment = """
-【重要なお知らせ】トルコリラ/円の証拠金率の引き上げ(レバレッジの引き下げ)の解除について  
-https://www.sbifxt.co.jp/notice/post_1033.html  
-25倍で勝負？そりゃあ危険ですねえ。  
+◆日銀が国債の買い入れ減額。今後金利は上がる  
+https://youtu.be/8PrjK7AEbkc?si=hf0XDcCYAp37mphi  
+◆円安時にS&P500投資で失敗！？この重要な３ステップが投資成功につながります  
+https://youtu.be/mVaCQ85Ks6U?si=fqI3NqqalJ5tQdL8  
+◆あの有名企業の高配当株がついに株式分割！6月注目の優良銘柄とは？    
+https://youtu.be/HFWtKyY2D_0?si=dqde_BwgJrVGv-UZ  
 """
-date="6/19"
+date="6/20"
 #第一口座
-mswap1 =21*26*3
-usswap =58.2
-ruikei1 =205048
-saeki1 =227130
+mswap1 =21*26
+usswap =23.7
+ruikei1 =206757
+saeki1 =224525
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26*3
-leverage=4.05
-tswap =77*37*3
-ruikei2 =204708
-saeki2 =2340
+mswap2 =2*26
+leverage=4.04
+tswap =77*37
+ruikei2 =213411
+saeki2 =550
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/162000
 
 #投資信託
-nikkei =38580
-bull =15168
-bear =891
+nikkei =38340
+bull =15321
+bear =882
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
