@@ -18,7 +18,7 @@ souba = 4.85
 yosan = int(souba*10000/leverage)
 
 nakami = np.array([swap,swap*7,swap*30,swap*365,yosan] )
-tuuka = [1,3,5,10,20,30,40,50,60,78,80,90,100]
+tuuka = [1,3,5,10,20,30,40,50,60,79,80,90,100]
 kanji = "万通貨"
 
 mydata=[]
