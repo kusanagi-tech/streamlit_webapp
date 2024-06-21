@@ -4,15 +4,15 @@ import mymodule.text as text
 st.header("🎥 Youtubeの動画配信のテスト",anchor='section1', divider='rainbow')
 
 URL = {
-"マギアレコード":"""https://www.youtube.com/embed/jI8OMNPbQTA?si=wO37Zc1sHefoyWMG""",
+"魔法少女まどか☆マギカ":"""https://www.youtube.com/embed/ks8WPvlQpbg?si=RWDi-msE8z-aXx4j""",
 "暁のヨナ":"""https://www.youtube.com/embed/3Tz3vxwJf6I?si=sJGb9PcbHgO5KwS5""",
-"ロード・エルメロイⅡ世の事件簿":"""https://www.youtube.com/embed/5loZwcsmn84?si=jjHaLTntPVQ5XK0y""",
+"デビルマンレディー 第1話":"""https://www.youtube.com/embed/jQipkErPU6Q?si=IhaKBROmFP2IiRMB""",
 "チェンソーマン":"""https://www.youtube.com/embed/dFlDRhvM4L0?si=9tIFZteHGmEobDGP"""
 }
 
-option = st.selectbox(
-    "🌟テスト動画を選択🌟",
-    ("マギアレコード", "暁のヨナ","ロード・エルメロイⅡ世の事件簿","チェンソーマン"))
+select = list(URL.keys())
+
+option = st.selectbox("🌟テスト動画を選択🌟",(select[0], select[1],select[2],select[3]))
 
 st.video(URL[option])
 

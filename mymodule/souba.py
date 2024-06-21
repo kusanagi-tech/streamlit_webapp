@@ -1,33 +1,28 @@
 comment = """
-◆日銀が国債の買い入れ減額。今後金利は上がる  
-https://youtu.be/8PrjK7AEbkc?si=hf0XDcCYAp37mphi  
-◆円安時にS&P500投資で失敗！？この重要な３ステップが投資成功につながります  
-https://youtu.be/mVaCQ85Ks6U?si=fqI3NqqalJ5tQdL8  
-◆あの有名企業の高配当株がついに株式分割！6月注目の優良銘柄とは？    
-https://youtu.be/HFWtKyY2D_0?si=dqde_BwgJrVGv-UZ  
+
 """
-date="6/20"
+date="6/21"
 #第一口座
-mswap1 =21*26
-usswap =23.7
-ruikei1 =206757
-saeki1 =224525
+mswap1 =21*25
+usswap =19.2
+ruikei1 =207306
+saeki1 =244202
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
 mswap2 =2*26
-leverage=4.04
-tswap =77*37
-ruikei2 =213411
-saeki2 =550
+leverage=4.08
+tswap =78*37
+ruikei2 =216349
+saeki2 =-5580
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/162000
 
 #投資信託
-nikkei =38340
-bull =15321
-bear =882
+nikkei =38600
+bull =15527
+bear =872
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -64,10 +59,10 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-77万通貨（取得平均単価4.850)  
+78万通貨（取得平均単価4.850)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
-為替差益：{saeki2:,}円  
+為替差損：{saeki2:,}円  
 評価損益：{hyouka2:,}円  
 有効比率：{yukou2:.2%}  
 
