@@ -1,34 +1,31 @@
 comment = """
-円相場1ドル160円迫る  
-https://youtu.be/xj6lqgk8fts?si=hpPYBLnrF5SUeJku    
-鈴木財務大臣「行き過ぎた動きには適切な対応」  
-https://youtu.be/TW_BLgh15SA?si=p8Kp8Kj3XyDHWvQL  
-ペソルマン回復か？！  
-https://youtu.be/cpGACdcI9-s?si=IYuJ1fJbcDvI_QCz  
-暗号資産は全体的に価格が下がっています。
+ドル円、160円を前に理由なき急落に驚き｜上昇トレンドは継続中  
+https://youtu.be/AIxAXbA6WbM?si=96WRdTr5FP7VytxA  
+【重要】トルコ中銀金融政策発表(6月27日)に伴う相場変動・スプレッド拡大等の可能性について  
+日本時間6月27日20時にはトルコ中銀金融政策発表が予定されており、市場予想の大勢（50.00％据え置き）と大きく異なる結果となった場合、または発表後同国大統領が批判的な行動を起こした場合等にはトルコリラ相場が急変動する可能性があります。  
 """
-date="6/25"
+date="6/26"
 #第一口座
-mswap1 =21*25
-usswap =24.4
-ruikei1 =208405
-saeki1 =296558
+mswap1 =21*25*3
+usswap =72.3
+ruikei1 =208954
+saeki1 =275344
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26
-leverage=4.13
-tswap =79*37
-ruikei2 =222299
-saeki2 =2850
+mswap2 =2*26*3
+leverage=4.10
+tswap =79*37*3
+ruikei2 =225274
+saeki2 =-2880
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/166000
 
 #投資信託
 nikkei =38850
-bull =15749
-bear =861
+bull =16467
+bear =826
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -68,7 +65,7 @@ page01 = f"""
 79万通貨（取得平均単価4.850)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
-為替差益：{saeki2:,}円  
+スポット評価：{saeki2:,}円  
 評価損益：{hyouka2:,}円  
 有効比率：{yukou2:.2%}  
 
