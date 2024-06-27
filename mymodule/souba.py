@@ -1,31 +1,30 @@
 comment = """
-ドル円、160円を前に理由なき急落に驚き｜上昇トレンドは継続中  
-https://youtu.be/AIxAXbA6WbM?si=96WRdTr5FP7VytxA  
-【重要】トルコ中銀金融政策発表(6月27日)に伴う相場変動・スプレッド拡大等の可能性について  
-日本時間6月27日20時にはトルコ中銀金融政策発表が予定されており、市場予想の大勢（50.00％据え置き）と大きく異なる結果となった場合、または発表後同国大統領が批判的な行動を起こした場合等にはトルコリラ相場が急変動する可能性があります。  
+約37年半ぶりの円安水準　神田財務官「深刻な懸念」(2024年6月27日)  
+https://youtu.be/UPad3F2ipDc?si=SjDv6V3OhJTtDX8x  
+日本時間6月27日20時にはトルコ中銀金融政策発表が予定。市場予想の大勢（50.00％据え置き）
 """
-date="6/26"
+date="6/27"
 #第一口座
-mswap1 =21*25*3
-usswap =72.3
-ruikei1 =208954
-saeki1 =275344
+mswap1 =21*25
+usswap =26.9
+ruikei1 =210610
+saeki1 =271384
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26*3
-leverage=4.10
-tswap =79*37*3
-ruikei2 =225274
-saeki2 =-2880
+mswap2 =2*26
+leverage=4.04
+tswap =80*37
+ruikei2 =234310
+saeki2 =13820
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/166000
+yukou2 = (755349 + hyouka2)/168000
 
 #投資信託
-nikkei =38850
-bull =16467
-bear =826
+nikkei =39420
+bull =17318
+bear =789
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -62,7 +61,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-79万通貨（取得平均単価4.850)  
+80万通貨（取得平均単価4.850)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
