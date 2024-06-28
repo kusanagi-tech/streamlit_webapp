@@ -1,28 +1,28 @@
 comment = """
-
+トルコリラは思ったより上昇が早いです。年末までには５円超えすると思ったのですが、もっと早いかもしれないです。
 """
-date="6/28"
+date="7/1"
 #第一口座
-mswap1 =21*25
-usswap =24.2
-ruikei1 =211159
-saeki1 =259406
+mswap1 =21*25*2
+usswap =49.4
+ruikei1 =211709
+saeki1 =273881
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26
-leverage=3.99
-tswap =80*37
-ruikei2 =237322
-saeki2 =26220
+mswap2 =2*26*2
+leverage=3.93
+tswap =80*37*2
+ruikei2 =240334
+saeki2 =43020
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/168000
 
 #投資信託
 nikkei =39550
-bull =16921
-bear =805
+bull =17232
+bear =791
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
