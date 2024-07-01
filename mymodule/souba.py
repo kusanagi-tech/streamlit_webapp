@@ -1,28 +1,32 @@
 comment = """
-トルコリラは思ったより上昇が早いです。年末までには５円超えすると思ったのですが、もっと早いかもしれないです。
+いきなり高くなった・・・・。今週は変則的なスワップの配布になっています。  
+今までトルコリラのレバレッジは15倍以下に制限されていた所が多かったのですが、法定上限(個人)の25倍の取引許可を出すところが増えて来ました。  
+https://lightfx.jp/press/20240701-1/  
+【買いオペってなに？】日銀の国債買い入れ減額ってなんなの？  
+https://youtu.be/WM-xwgq9Gs8?si=clcSW-vaoJgVQsIZ  　　
 """
-date="7/1"
+date="7/2"
 #第一口座
-mswap1 =21*25*2
-usswap =49.4
-ruikei1 =211709
-saeki1 =273881
+mswap1 =21*25*3
+usswap =0
+ruikei1 =212723
+saeki1 =272544
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26*2
-leverage=3.93
-tswap =80*37*2
-ruikei2 =240334
-saeki2 =43020
+mswap2 =2*26*3
+leverage=3.83
+tswap =80*37*0
+ruikei2 =246350
+saeki2 =81320
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/168000
 
 #投資信託
-nikkei =39550
-bull =17232
-bear =791
+nikkei =39480 	
+bull =17399
+bear =784
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
