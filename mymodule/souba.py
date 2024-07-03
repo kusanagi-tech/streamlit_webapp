@@ -1,34 +1,31 @@
 comment = """
-高い・・・。やはり安い時に赤字の時にせっせと買い貯め。
-ビットコインが相場40万円の時に一千万円まで上がると予想した人がいるんですよ。まさかと思ったんですけど。何かの根拠があったのかもしれません。  
-◆日経平均は「◯万円」まで上がる？  
-https://youtu.be/Ij1uJF-XqeE?si=Z9l7V5rxU4lfQwu7  
-ーブラックスワン（予測不可の金融恐慌の原因）  
-◆ドル円、38年ぶり高値を更新、162円が視野に  
-https://youtu.be/99PVz18abq4?si=vuVHXjQrCOIHx8M2 　　
+S&P500企業の実態がすごい！？アメリカ現地へ行ってきた  
+https://youtu.be/dEDAEvjqBPo?si=8ccv9L_bOsvDNk2E  
+S&P500はもう伸びない？AI関連企業の本社、新商品に注目、アメリカ現地で考察  
+https://youtu.be/PpAppr_bL3M?si=08IrwrJkN7Nt1ctF  
 """
-date="7/3"
+date="7/4"
 #第一口座
-mswap1 =21*25*0
-usswap =73.2
-ruikei1 =214109
-saeki1 =285362
+mswap1 =21*22
+usswap =24.2
+ruikei1 =214182
+saeki1 =294320
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26*0
-leverage=3.83
-tswap =80*37*3
-ruikei2 =246488
-saeki2 =100800
+mswap2 =2*23
+leverage=3.75
+tswap =81*37
+ruikei2 =255608
+saeki2 =98500
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/168000
+yukou2 = (755349 + hyouka2)/170000
 
 #投資信託
-nikkei =40210	
-bull =18229
-bear =752
+nikkei =40700
+bull =19186
+bear =717
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -65,7 +62,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-80万通貨（取得平均単価4.850)  
+81万通貨（取得平均単価4.851)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
