@@ -1,32 +1,34 @@
 comment = """
-いきなり高くなった・・・・。今週は変則的なスワップの配布になっています。  
-今までトルコリラのレバレッジは15倍以下に制限されていた所が多かったのですが、法定上限(個人)の25倍の取引許可を出すところが増えて来ました。  
-https://lightfx.jp/press/20240701-1/  
-【買いオペってなに？】日銀の国債買い入れ減額ってなんなの？  
-https://youtu.be/WM-xwgq9Gs8?si=clcSW-vaoJgVQsIZ  　　
+高い・・・。やはり安い時に赤字の時にせっせと買い貯め。
+ビットコインが相場40万円の時に一千万円まで上がると予想した人がいるんですよ。まさかと思ったんですけど。何かの根拠があったのかもしれません。  
+◆日経平均は「◯万円」まで上がる？  
+https://youtu.be/Ij1uJF-XqeE?si=Z9l7V5rxU4lfQwu7  
+ーブラックスワン（予測不可の金融恐慌の原因）  
+◆ドル円、38年ぶり高値を更新、162円が視野に  
+https://youtu.be/99PVz18abq4?si=vuVHXjQrCOIHx8M2 　　
 """
-date="7/2"
+date="7/3"
 #第一口座
-mswap1 =21*25*3
-usswap =0
-ruikei1 =212723
-saeki1 =272544
+mswap1 =21*25*0
+usswap =73.2
+ruikei1 =214109
+saeki1 =285362
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
-mswap2 =2*26*3
+mswap2 =2*26*0
 leverage=3.83
-tswap =80*37*0
-ruikei2 =246350
-saeki2 =81320
+tswap =80*37*3
+ruikei2 =246488
+saeki2 =100800
 hyouka2 = ruikei2 + saeki2
 yukou2 = (755349 + hyouka2)/168000
 
 #投資信託
-nikkei =39480 	
-bull =17399
-bear =784
+nikkei =40210	
+bull =18229
+bear =752
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
