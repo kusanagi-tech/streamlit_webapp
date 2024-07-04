@@ -1,31 +1,32 @@
 comment = """
-S&P500企業の実態がすごい！？アメリカ現地へ行ってきた  
-https://youtu.be/dEDAEvjqBPo?si=8ccv9L_bOsvDNk2E  
-S&P500はもう伸びない？AI関連企業の本社、新商品に注目、アメリカ現地で考察  
-https://youtu.be/PpAppr_bL3M?si=08IrwrJkN7Nt1ctF  
+【重要】米雇用統計発表（7/5）に伴う相場変動・スプレッド拡大等の可能性について  
+https://www.gaitame.com/info/news/2024/06/05_002844.html  
+ライブ中継  
+https://www.youtube.com/live/AO2F1esdCus?si=s0jKb7QBOj-UftiH  
+暗号資産が大暴落してます。何かあったのでしょうか？
 """
-date="7/4"
+date="7/5"
 #第一口座
-mswap1 =21*22
-usswap =24.2
-ruikei1 =214182
-saeki1 =294320
+mswap1 =21*23
+usswap =21.9
+ruikei1 =214687
+saeki1 =295824
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
 mswap2 =2*23
-leverage=3.75
-tswap =81*37
-ruikei2 =255608
-saeki2 =98500
+leverage=3.92
+tswap =83*38
+ruikei2 =258770
+saeki2 =47950
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/170000
+yukou2 = (755349 + hyouka2)/174000
 
 #投資信託
-nikkei =40700
-bull =19186
-bear =717
+nikkei =40890
+bull =19777
+bear =698
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -62,7 +63,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-81万通貨（取得平均単価4.851)  
+83万通貨（取得平均単価4.854)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
