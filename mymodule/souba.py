@@ -1,32 +1,29 @@
 comment = """
-【重要】米雇用統計発表（7/5）に伴う相場変動・スプレッド拡大等の可能性について  
-https://www.gaitame.com/info/news/2024/06/05_002844.html  
-ライブ中継  
-https://www.youtube.com/live/AO2F1esdCus?si=s0jKb7QBOj-UftiH  
-暗号資産が大暴落してます。何かあったのでしょうか？
+6月の米雇用統計発表　就業者の伸びは市場予想を上回るも失業率悪化　日本に影響は？  
+https://youtu.be/3PZNfYvN9z0?si=Nd0dtm9yPANqTpQO  
 """
-date="7/5"
+date="7/8"
 #第一口座
 mswap1 =21*23
-usswap =21.9
-ruikei1 =214687
-saeki1 =295824
+usswap =20.8
+ruikei1 =215191
+saeki1 =293960
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
 mswap2 =2*23
-leverage=3.92
-tswap =83*38
-ruikei2 =258770
-saeki2 =47950
+leverage=4.00
+tswap =85*38
+ruikei2 =258770+tswap
+saeki2 =71680
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/174000
+yukou2 = (755349 + hyouka2)/176000
 
 #投資信託
 nikkei =40890
-bull =19777
-bear =698
+bull =19713
+bear =699
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -63,7 +60,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-83万通貨（取得平均単価4.854)  
+85万通貨（取得平均単価4.855)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
