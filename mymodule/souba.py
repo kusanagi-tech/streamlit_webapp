@@ -1,24 +1,22 @@
 comment = """
-6月の米雇用統計発表　就業者の伸びは市場予想を上回るも失業率悪化　日本に影響は？  
-https://youtu.be/3PZNfYvN9z0?si=Nd0dtm9yPANqTpQO  
 """
 date="7/8"
 #第一口座
 mswap1 =21*23
 usswap =20.8
 ruikei1 =215191
-saeki1 =293960
+saeki1 =294694
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
 mswap2 =2*23
-leverage=4.00
-tswap =85*38
-ruikei2 =258770+tswap
-saeki2 =71680
+leverage=4.03
+tswap =86*38
+ruikei2 =262046
+saeki2 =68250
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/176000
+yukou2 = (755349 + hyouka2)/180000
 
 #投資信託
 nikkei =40890
@@ -60,7 +58,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-85万通貨（取得平均単価4.855)  
+86万通貨（取得平均単価4.855)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
