@@ -1,29 +1,26 @@
 comment = """
-NY外為 円相場が一時1円50銭ほど急騰　政府・日銀 2日連続で為替介入か｜TBS NEWS DIG  
-https://youtu.be/gPOTccE3Aus?si=mshSwq2EqHpYwRdi  
-為替介入の推定は、日銀の当座預金の残高から推定して報道している記事もあります。  
-７月15日は祝日なので、東京市場の資金の流動性が少なく相場を操作しやすくなります。三度目の正直はあるのでしょうか？  
+レバレッジを五倍まで引き上げると、強度は充分あるんですが、利益としてスワップが引き出せなくなります。（少なくとも一ヶ月は引き出せません。）漬物のような投機運用になっているわけです。さて為替介入疑惑はもう終わったんでしょうか？
 """
-date="7/15"
+date="7/16"
 #第一口座
 mswap1 =21*25
-usswap =20.2
-ruikei1 =218893
-saeki1 =308675
+usswap =19.6
+ruikei1 =219438
+saeki1 =298593
 hyouka1 = ruikei1 + saeki1
 yukou1 = (353009 + hyouka1)/149128
 
 #第二口座
 mswap2 =2*25
-leverage=4.45
-tswap =95*38
-ruikei2 =285296
-saeki2 =-62100
+leverage=4.60
+tswap =96*38
+ruikei2 =288994
+saeki2 =-47880
 hyouka2 = ruikei2 + saeki2
-yukou2 = (755349 + hyouka2)/198000
+yukou2 = (810878 + hyouka2)/202000
 
 #投資信託
-nikkei =41190
+nikkei =41180
 bull =20138
 bear =670
 soneki = bull + bear - 15807
@@ -62,7 +59,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-95万通貨（取得平均単価4.855)  
+96万通貨（取得平均単価4.851)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
