@@ -1,29 +1,29 @@
 comment = """
-暗号資産が急上昇しています。トランプ氏銃撃事件の影響だと言われています。
-為替介入でトルコリラの相場が巻き戻ったので、トータルで100万通貨になるように買い足しました。しかし脅威は為替介入だけではなく、他の金融恐慌もあるので、注意が必要です。
+円高進む　円相場一時1ドル155円40銭台半ばまで　1か月ぶり高値　アメリカは利下げ　日本は利上げが意識される｜TBS NEWS DIG  
+https://youtu.be/VpzhIkMFhS8?si=Cx95N74MWpUnWBg3  
 """
-date="7/17"
+date="7/18"
 #第一口座
-mswap1 =21*25*3
-usswap =58.2
-ruikei1 =219982
-saeki1 =309803
+mswap1 =21*25
+usswap =19.2
+ruikei1 =221615
+saeki1 =277103
 hyouka1 = ruikei1 + saeki1
 yukou1 = (882317/156917)
 
 #第二口座
-mswap2 =2*25*3
-leverage=4.70
-tswap =100*38*3
-ruikei2 =292730
-saeki2 =-49250
+mswap2 =2*25
+leverage=5.15
+tswap =102*38
+ruikei2 =304394
+saeki2 =-154560
 hyouka2 = ruikei2 + saeki2
-yukou2 = (810878 + hyouka2)/208000
+yukou2 = (810878 + hyouka2)/212000	
 
 #投資信託
-nikkei =41500
-bull =20281
-bear =666
+nikkei =40230
+bull =19943
+bear =676
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -60,7 +60,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-100万通貨（取得平均単価4.850)  
+102万通貨（取得平均単価4.848)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
