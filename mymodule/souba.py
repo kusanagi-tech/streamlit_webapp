@@ -11,7 +11,7 @@ hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
-mswap2 =2*25*3
+mswap2 =2*25
 leverage=5.47
 tswap =108*38
 ruikei2 =332940
