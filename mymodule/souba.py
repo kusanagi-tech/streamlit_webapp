@@ -1,30 +1,27 @@
 comment = """
-7月末(30-31)になると、日銀金融政策決定会合とアメリカのFOMCが同日にあります。ここで相場が大きく動くでしょう。  
-日銀：国債の買い入れ額の減少計画  
-FOMC：政策金利の利下げ時期  
 """
-date="7/23"
+date="7/24"
 #第一口座
-mswap1 =22*25
-usswap =19.3
-ruikei1 =223298
-saeki1 =259305
+mswap1 =22*25*3
+usswap =57.6
+ruikei1 =223867
+saeki1 =222320
 hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
-mswap2 =2*25
+mswap2 =2*25*3
 leverage=4.96
-tswap =106*38
-ruikei2 =316400
-saeki2 =-96170
+tswap =106*38*3
+ruikei2 =320478
+saeki2 =-94030
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/220000	
 
 #投資信託
-nikkei =39860
-bull =16721
-bear =781
+nikkei =39430
+bull =16830
+bear =776
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
