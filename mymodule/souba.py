@@ -1,28 +1,27 @@
 comment = """
-為替相場全体が下がりましたが、まだ利益が残っていてよかったです。
 """
-date="7/25"
+date="7/26"
 #第一口座
 mswap1 =22*25
-usswap =18.9
-ruikei1 =225507
-saeki1 =173285
+usswap =18.6
+ruikei1 =226054
+saeki1 =170887
 hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
 mswap2 =2*25
-leverage=5.47
-tswap =108*38
-ruikei2 =332940
-saeki2 =-197900
+leverage=5.72
+tswap =110*38
+ruikei2 =337130
+saeki2 =-228610
 hyouka2 = ruikei2 + saeki2
-yukou2 = (810878 + hyouka2)/224000
+yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38170
-bull =16060
-bear =807
+nikkei =37700
+bull =13608
+bear =916
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -59,7 +58,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-108万通貨（取得平均単価4.842)  
+110万通貨（取得平均単価4.840)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
