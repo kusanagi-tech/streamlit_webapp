@@ -1,27 +1,27 @@
 comment = """
 """
-date="7/26"
+date="7/29"
 #第一口座
-mswap1 =22*25
-usswap =18.6
-ruikei1 =226054
-saeki1 =170887
+mswap1 =22*24
+usswap =18.9
+ruikei1 =226601
+saeki1 =166003
 hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
-mswap2 =2*25
-leverage=5.72
+mswap2 =2*24
+leverage=5.51
 tswap =110*38
-ruikei2 =337130
-saeki2 =-228610
+ruikei2 =341358
+saeki2 =-196810
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =37700
-bull =13608
-bear =916
+nikkei =38200
+bull =13548
+bear =920
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
@@ -58,7 +58,7 @@ page01 = f"""
 スワップ：{mswap2}円（推定)  
 レバレッジ:{leverage}倍  
 トルコリラ:{mytry}  
-110万通貨（取得平均単価4.840)  
+110万通貨（取得平均単価4.839)  
 スワップ：{tswap:,}円(推定)  
 累計スワップ：{ruikei2:,}円  
 スポット評価：{saeki2:,}円  
