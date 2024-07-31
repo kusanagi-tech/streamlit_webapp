@@ -1,5 +1,4 @@
 comment = """
-元本割れしてないのがありがたいです。
 """
 date="7/31"
 #第一口座
@@ -15,7 +14,7 @@ mswap2 =2*24*3
 leverage=5.53
 tswap =110*38*3
 ruikei2 =349814
-saeki2 =-264630
+saeki2 =-273910
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
