@@ -1,27 +1,28 @@
 comment = """
+元本割れしてないのがありがたいです。
 """
-date="7/30"
+date="7/31"
 #第一口座
-mswap1 =22*24
-usswap =18.9
-ruikei1 =227148
-saeki1 =152849
+mswap1 =22*24*3
+usswap =57.9
+ruikei1 =227695
+saeki1 =126841
 hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
-mswap2 =2*24
+mswap2 =2*24*3
 leverage=5.53
-tswap =110*38
-ruikei2 =345586
-saeki2 =-206030
+tswap =110*38*3
+ruikei2 =349814
+saeki2 =-264630
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38290
-bull =14714
-bear =849
+nikkei =38000
+bull =14780
+bear =846
 soneki = bull + bear - 15807
 
 #為替レートの自動取得
