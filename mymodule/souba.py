@@ -1,20 +1,21 @@
 comment = """
+だいぶ下がったので建玉数を少し減らします。建て玉は利益の出ているものとそうでないものがあるので、黒字になっているものから少しずつ決算し、赤字はしばらく寝かせて、スワップで回復させます。日銀会合でパニック相場になっていましたが、ロスカットされなくてよかったです。
 """
-date="7/31"
+date="8/1"
 #第一口座
-mswap1 =22*24*3
-usswap =57.9
-ruikei1 =227695
-saeki1 =126841
+mswap1 =22*24
+usswap =18.2
+ruikei1 =229268
+saeki1 =104410
 hyouka1 = ruikei1 + saeki1
 yukou1 = (839502/160368)
 
 #第二口座
-mswap2 =2*24*3
-leverage=5.53
-tswap =110*38*3
-ruikei2 =349814
-saeki2 =-273910
+mswap2 =2*24
+leverage=6.15
+tswap =110*38
+ruikei2 =362498
+saeki2 =-340630
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
