@@ -1,30 +1,30 @@
 comment = """
 
 """
-date="11/19"
+date="11/20"
 #第一口座
-mswap1 =5*21
+mswap1 =5*21*3
 usswap =0
-tswap1 = 4*40
-ruikei1 =6111
-saeki1 =2350
+tswap1 = 4*40*3
+ruikei1 =6376
+saeki1 =4130
 hyouka1 = ruikei1 + saeki1
 yukou1 = (140000 + hyouka1)/44865
 
 #第二口座
 mswap2 =2*24
 leverage=6.05
-tswap2 =21*40
-ruikei2 =15104
-saeki2 =3890
+tswap2 =21*40*3
+ruikei2 =15944
+saeki2 =5360
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38310
-bull =22280
+nikkei =38290
+bull =23127
 bear =0
-soneki = bull -26889
+soneki = bull -26869
 
 #為替レートの自動取得
 import requests as req
@@ -48,7 +48,7 @@ page01 = f"""
 トルコリラ:{mytry}  
 4万通貨（取得平均単価4.48)  
 レバレッジ約6倍  
-スワップ：{tswap1:,}円(推定)  
+スワップ：{tswap1:,}円  
 累計スワップ：{ruikei1:,}円  
 為替差益（含み益）：{saeki1:,}円  
 評価損益：{hyouka1:,}円  
@@ -65,7 +65,7 @@ page01 = f"""
 有効比率：{yukou2:.2%}  
 
 日経平均先物相場：{nikkei:,}円  
-◆楽天日本株4.3ブル（10,153口)   
+◆楽天日本株4.3ブル（10,198口)   
 評価額：{bull:,}円  
 損益：{soneki:,}円
 
