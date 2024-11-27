@@ -1,28 +1,29 @@
 comment = """
-
+ようやく下げが止まったようです。（0円にはならないのでどこかでは止まります。）時事的な影響ではなく、感謝祭だからポジションを引き上げたのかもしれないと噂されています。その落差はドルが約五円なので、日銀の五円アタックもこの数値を掴んでいるのかもしれません。
+マイナスからのスタートです。さて、トランプ関税を科されるメキシコ経済はどうなるのでしょうか？
 """
-date="11/27"
+date="11/28"
 #第一口座
-mswap1 =5*21*0
+mswap1 =5*22*1
 usswap =0
-tswap1 = 4*40*3
-ruikei1 =8691
-saeki1 =-11630
+tswap1 = 5*40*1
+ruikei1 =9291
+saeki1 =-19280
 hyouka1 = ruikei1 + saeki1
-yukou1 = (140000 + hyouka1)/44865
+yukou1 = (150000 + hyouka1)/44865
 
 #第二口座
 mswap2 =2*24
 leverage=6.47
-tswap2 =25*40*3
+tswap2 =25*40*1
 ruikei2 =22104
-saeki2 =-8820
+saeki2 =-25820
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38330 	
-bull =23345
+nikkei =37800
+bull =22333
 bear =0
 soneki = bull -26869
 
