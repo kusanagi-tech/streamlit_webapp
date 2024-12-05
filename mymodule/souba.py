@@ -1,28 +1,28 @@
 comment = """
-年末までにひと荒れきそうですよ。私のカンですが。あてになりません？！
+下がれば上がる？おもったよりダメージが少なくてよかったです。
 """
-date="11/29"
+date="12/5"
 #第一口座
 mswap1 =5*22*1
 usswap =0
 tswap1 = 5*40*1
-ruikei1 =9601
-saeki1 =-14280
+ruikei1 =11461
+saeki1 =-17380
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
 #第二口座
 mswap2 =2*24
-leverage=6.52
+leverage=6.57
 tswap2 =25*40*1
-ruikei2 =26104
-saeki2 =-22820
+ruikei2 =32104	
+saeki2 =-35570
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38300	
-bull =23038
+nikkei =39510
+bull =25357
 bear =0
 soneki = bull -26869
 
