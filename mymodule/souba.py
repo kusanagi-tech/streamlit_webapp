@@ -1,13 +1,12 @@
 comment = """
-下がれば上がる？おもったよりダメージが少なくてよかったです。
 """
-date="12/5"
+date="12/9"
 #第一口座
-mswap1 =5*22*1
+mswap1 =5*22*2
 usswap =0
 tswap1 = 5*40*1
-ruikei1 =11461
-saeki1 =-17380
+ruikei1 =12076
+saeki1 =16680
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
@@ -15,14 +14,14 @@ yukou1 = (150000 + hyouka1)/44865
 mswap2 =2*24
 leverage=6.57
 tswap2 =25*40*1
-ruikei2 =32104	
-saeki2 =-35570
+ruikei2 =34104
+saeki2 =-35820
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =39510
-bull =25357
+nikkei =39350 	
+bull =24680
 bear =0
 soneki = bull -26869
 
