@@ -6,7 +6,7 @@ mswap1 =5*22*2
 usswap =0
 tswap1 = 5*40*1
 ruikei1 =12076
-saeki1 =16680
+saeki1 =-16680
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
