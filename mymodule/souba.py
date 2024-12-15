@@ -1,13 +1,13 @@
 comment = """
-いつの間にかお金が増えていたというのは嬉しいですね。最後はどうなるかわかりませんが。
+トランプ政権は円安なんでしょうか？
 """
-date="12/12"
+date="12/16"
 #第一口座
-mswap1 =5*22*1
+mswap1 =5*21*1
 usswap =0
 tswap1 = 5*40*1
-ruikei1 =13626
-saeki1 =-7380
+ruikei1 =14241
+saeki1 =-2580
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
@@ -15,14 +15,14 @@ yukou1 = (150000 + hyouka1)/44865
 mswap2 =2*24
 leverage=6.18
 tswap2 =26*40*1
-ruikei2 =39264
-saeki2 =-22000
+ruikei2 =41344
+saeki2 =-14980
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
 nikkei =39940		
-bull =25722
+bull = 25849
 bear =0
 soneki = bull -26853
 
