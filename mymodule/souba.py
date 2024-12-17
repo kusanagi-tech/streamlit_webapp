@@ -1,28 +1,28 @@
 comment = """
-トランプ政権は円安なんでしょうか？
+2025年から超富裕層（年間所得が3.3億円超）に対して、金融所得税が増税されます。（富裕層ミニマム税）超富裕層が対象ですが、これは将来範囲が拡大する可能性があり、小金もちにも課税されるかもしれません。あと、超富裕層相手なので、海外移住も検討されるかもしれないです。日本は住みにくくなったと言われてしまいますよ。
 """
-date="12/16"
+date="12/17"
 #第一口座
 mswap1 =5*21*1
 usswap =0
 tswap1 = 5*40*1
-ruikei1 =14241
-saeki1 =-2580
+ruikei1 =14546
+saeki1 =-630
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
 #第二口座
 mswap2 =2*24
-leverage=6.18
+leverage=5.80
 tswap2 =26*40*1
-ruikei2 =41344
-saeki2 =-14980
+ruikei2 =42384
+saeki2 =-11340	
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =39940		
-bull = 25849
+nikkei =39710		
+bull = 25818
 bear =0
 soneki = bull -26853
 
