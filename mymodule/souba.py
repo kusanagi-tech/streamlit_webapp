@@ -1,12 +1,12 @@
 comment = """
 """
-date="12/19"
+date="12/20"
 #第一口座
-mswap1 =5*21*1
+mswap1 =5*21*2
 usswap =0
 tswap1 = 5*40*1
-ruikei1 =15766
-saeki1 =-3730
+ruikei1 =16071
+saeki1 =7420
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
@@ -14,14 +14,14 @@ yukou1 = (150000 + hyouka1)/44865
 mswap2 =0
 leverage=6.15
 tswap2 =27*40*1
-ruikei2 =46664
-saeki2 =-14520
+ruikei2 =47744
+saeki2 =3300
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =38680
-bull = 25089
+nikkei =39020 
+bull = 24760
 bear =0
 soneki = bull -26853
 
