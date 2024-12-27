@@ -4,7 +4,7 @@ import mymodule.text as text
 st.header("🎥 Youtubeの動画配信のテスト",anchor='section1', divider='rainbow')
 
 URL = {
-"魔法少女まどか☆マギカ":"""https://www.youtube.com/embed/ks8WPvlQpbg?si=RWDi-msE8z-aXx4j""",
+"ひぐらしのなく頃に":"""https://www.youtube.com/embed/V9nV4SHbcBA?si=ssZh63GLNA9bXSj_""",
 "暁のヨナ":"""https://www.youtube.com/embed/3Tz3vxwJf6I?si=sJGb9PcbHgO5KwS5""",
 "デビルマンレディー 第1話":"""https://www.youtube.com/embed/jQipkErPU6Q?si=IhaKBROmFP2IiRMB""",
 "チェンソーマン":"""https://www.youtube.com/embed/dFlDRhvM4L0?si=9tIFZteHGmEobDGP"""
