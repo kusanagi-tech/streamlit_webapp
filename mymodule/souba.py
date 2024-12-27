@@ -1,30 +1,28 @@
 comment = """
-【PR】今すぐ始められる！未経験者は知っておきたいFX入門！  
-https://youtu.be/9JPgrPOngn4?si=DAf6r4Me5F3K5sh1  
-この動画で解説しているのは証拠金維持率です。レバレッジにすると約６倍位です。  
-"""
-date="12/24"
+スワップは７日分前払い支給されたので、しばらくはもらえません。
+ """
+date="12/30"
 #第一口座
 mswap1 =5*21*0
 usswap =0
-tswap1 = 5*40*1
-ruikei1 =16786
-saeki1 =8520
+tswap1 = 5*40*0
+ruikei1 =20341
+saeki1 =6820
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/44865
 
 #第二口座
 mswap2 =0
-leverage=5.46
-tswap2 =27*40*1
-ruikei2 =49904
-saeki2 =4650	
+leverage=5.28
+tswap2 =27*40*0
+ruikei2 =61784
+saeki2 =-4800
 hyouka2 = ruikei2 + saeki2
 yukou2 = (810878 + hyouka2)/228000
 
 #投資信託
-nikkei =39140 	 	
-bull = 25036
+nikkei =40140 		
+bull = 27943
 bear =0
 soneki = bull -26853
 
