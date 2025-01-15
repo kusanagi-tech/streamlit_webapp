@@ -27,7 +27,7 @@ souba = mytry
 yosan = int(souba*10000/leverage)
 
 nakami = np.array([swap,swap*7,swap*30,swap*365,yosan] )
-tuuka = [1,2,3,4,5,10,20,30,32,40,50]
+tuuka = [1,2,3,4,5,10,20,30,33,40,50]
 kanji = "万通貨"
 
 mydata=[]
