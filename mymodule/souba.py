@@ -1,13 +1,13 @@
 comment = """
-もとにもどりましたね。ちょこっとだけ買いました。
+スワップだけなら10万円を突破しましたが、まだまだ先は長い。
  """
-date="1/28"
+date="2/3"
 #第一口座
 mswap1 =5*20*1
 usswap =0
-tswap1 = 6*38*1
-ruikei1 =27977
-saeki1 =-12050
+tswap1 = 6*37*1
+ruikei1 =29939
+saeki1 =-13840
 hyouka1 = ruikei1 + saeki1
 yukou1 = (150000 + hyouka1)/52024
 
@@ -15,14 +15,14 @@ yukou1 = (150000 + hyouka1)/52024
 mswap2 =0
 leverage=6.67
 tswap2 =38*37*1
-ruikei2 =92328			
-saeki2 =-34190
+ruikei2 =100726			
+saeki2 =-42930
 hyouka2 = ruikei2 + saeki2
 yukou2 = (189110 + hyouka2)/76000
 
 #投資信託
-nikkei =39070 	
-bull = 25558
+nikkei =39360 	
+bull = 25899
 bear =0
 soneki = bull -26853
 
